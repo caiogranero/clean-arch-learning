@@ -1,0 +1,12 @@
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\bin\Debug\net5.0\MyCleanCode.Domain.deps.json
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\bin\Debug\net5.0\MyCleanCode.Domain.dll
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\bin\Debug\net5.0\ref\MyCleanCode.Domain.dll
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\bin\Debug\net5.0\MyCleanCode.Domain.pdb
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\MyCleanCode.Domain.csprojAssemblyReference.cache
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\MyCleanCode.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\MyCleanCode.Domain.AssemblyInfoInputs.cache
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\MyCleanCode.Domain.AssemblyInfo.cs
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\MyCleanCode.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\MyCleanCode.Domain.dll
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\ref\MyCleanCode.Domain.dll
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Domain\obj\Debug\net5.0\MyCleanCode.Domain.pdb

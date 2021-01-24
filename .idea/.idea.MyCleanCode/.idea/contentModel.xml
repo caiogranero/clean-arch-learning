@@ -33,14 +33,7 @@
       <e p="MyCleanCode.Application" t="IncludeRecursive">
         <e p="ApplicationServiceRegistration.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Contracts" t="Include">
-          <e p="Persistence" t="Include">
-            <e p="IAsyncRepository.cs" t="Include" />
-            <e p="ICategoryRepository.cs" t="Include" />
-            <e p="IEventRepository.cs" t="Include" />
-            <e p="IOrderRepository.cs" t="Include" />
-          </e>
-        </e>
+        <e p="Contracts" t="Include" />
         <e p="Exceptions" t="Include">
           <e p="BadRequestException.cs" t="Include" />
           <e p="NotFoundException.cs" t="Include" />
@@ -131,11 +124,8 @@
           </e>
         </e>
         <e p="PersistenceServiceRegistration.cs" t="Include" />
-        <e p="Repositories" t="Include">
-          <e p="BaseRepository.cs" t="Include" />
+        <e p="Repository" t="Include">
           <e p="CategoryRepository.cs" t="Include" />
-          <e p="EventRepository.cs" t="Include" />
-          <e p="OrderRepository.cs" t="Include" />
         </e>
       </e>
       <e p="MyCleanCode.sln" t="IncludeFlat" />

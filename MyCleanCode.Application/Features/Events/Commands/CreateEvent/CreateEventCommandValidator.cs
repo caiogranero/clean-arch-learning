@@ -2,17 +2,18 @@
 using System.Threading;
 using System.Threading.Tasks;
 using FluentValidation;
-using MyCleanCode.Application.Contracts.Persistence;
+using MyCleanCode.Persistence;
+using MyCleanCode.Persistence.Repository;
 
 namespace MyCleanCode.Application.Features.Events.Commands.CreateEvent
 {
     public class CreateEventCommandValidator : AbstractValidator<CreateEventCommand>
     {
-        private readonly IEventRepository _eventRepository;
+        private readonly CleanCodeContext _dbContext;
 
-        public CreateEventCommandValidator(IEventRepository eventRepository)
+        public CreateEventCommandValidator(CleanCodeContext dbContext)
         {
-            _eventRepository = eventRepository;
+            _dbContext = dbContext;
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("{PropertyName} is required")
                 .NotNull()
@@ -34,7 +35,7 @@ namespace MyCleanCode.Application.Features.Events.Commands.CreateEvent
 
         private async Task<bool> EventNameAndDateUnique(CreateEventCommand eventCommand, CancellationToken cancellationToken)
         {
-            return !(await _eventRepository.IsEventNameAndDateUnique(eventCommand.Name, eventCommand.Date));
+            return !await _dbContext.Events.IsEventNameAndDateUnique(eventCommand.Name, eventCommand.Date);
         }
     }
 }

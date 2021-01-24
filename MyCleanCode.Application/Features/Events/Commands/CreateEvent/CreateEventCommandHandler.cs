@@ -2,31 +2,31 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
-using MyCleanCode.Application.Contracts.Persistence;
 using MyCleanCode.Domain.Entities;
+using MyCleanCode.Persistence;
 
 namespace MyCleanCode.Application.Features.Events.Commands.CreateEvent
 {
     public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, int>
     {
         private readonly IMapper _mapper;
-        private readonly IEventRepository _eventRepository;
+        private readonly CleanCodeContext _cleanCodeContext;
 
-        public CreateEventCommandHandler(IMapper mapper, IEventRepository eventRepository)
+        public CreateEventCommandHandler(IMapper mapper, CleanCodeContext cleanCodeContext)
         {
             _mapper = mapper;
-            _eventRepository = eventRepository;
+            _cleanCodeContext = cleanCodeContext;
         }
         public async Task<int> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
-            var validator = new CreateEventCommandValidator(_eventRepository);
+            var validator = new CreateEventCommandValidator(_cleanCodeContext);
             var validationResult = await validator.ValidateAsync(request, cancellationToken);
 
             if (!validationResult.IsValid)
                 throw new Exceptions.ValidationException(validationResult);
             
             var @event = _mapper.Map<Event>(request);
-            @event = await _eventRepository.AddAsync(@event);
+            @event = (await _cleanCodeContext.Events.AddAsync(@event, cancellationToken)).Entity;
             return @event.EventId;
         }
     }

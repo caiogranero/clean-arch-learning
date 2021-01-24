@@ -1696,7 +1696,8 @@
           "FluentValidation.DependencyInjectionExtensions": "9.4.0",
           "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
-          "MyCleanCode.Domain": "1.0.0"
+          "MyCleanCode.Domain": "1.0.0",
+          "MyCleanCode.Persistence": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MyCleanCode.Application.dll": {}
@@ -1721,7 +1722,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.2",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0",
-          "MyCleanCode.Application": "1.0.0"
+          "MyCleanCode.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MyCleanCode.Persistence.dll": {}

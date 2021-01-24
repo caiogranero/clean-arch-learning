@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MyCleanCode.Application.Contracts.Persistence;
-using MyCleanCode.Persistence.Repositories;
+// using MyCleanCode.Application.Contracts.Persistence;
+// using MyCleanCode.Persistence.Repositories;
 
 namespace MyCleanCode.Persistence
 {
@@ -14,9 +14,9 @@ namespace MyCleanCode.Persistence
             services.AddDbContext<CleanCodeContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("SqlConnection")));
             
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
-            services.AddScoped<IOrderRepository, OrderRepository>();
-            services.AddScoped<IEventRepository, EventRepository>();
+            // services.AddScoped<ICategoryRepository, CategoryRepository>();
+            // services.AddScoped<IOrderRepository, OrderRepository>();
+            // services.AddScoped<IEventRepository, EventRepository>();
 
             return services;
         }

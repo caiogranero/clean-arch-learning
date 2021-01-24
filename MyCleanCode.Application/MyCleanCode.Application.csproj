@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MyCleanCode.Domain\MyCleanCode.Domain.csproj" />
+      <ProjectReference Include="..\MyCleanCode.Persistence\MyCleanCode.Persistence.csproj" />
     </ItemGroup>
 
     <ItemGroup>
@@ -18,6 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Contracts" />
       <Folder Include="Features\Categories\Commands" />
       <Folder Include="Features\Orders\Commands" />
       <Folder Include="Features\Orders\Queries" />

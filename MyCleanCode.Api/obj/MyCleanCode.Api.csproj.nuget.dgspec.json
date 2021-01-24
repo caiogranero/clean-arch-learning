@@ -116,6 +116,9 @@
             "projectReferences": {
               "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Domain\\MyCleanCode.Domain.csproj": {
                 "projectPath": "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Domain\\MyCleanCode.Domain.csproj"
+              },
+              "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Persistence\\MyCleanCode.Persistence.csproj": {
+                "projectPath": "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Persistence\\MyCleanCode.Persistence.csproj"
               }
             }
           }
@@ -258,8 +261,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Application\\MyCleanCode.Application.csproj": {
-                "projectPath": "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Application\\MyCleanCode.Application.csproj"
+              "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Domain\\MyCleanCode.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\clean-arch\\MyCleanCode\\MyCleanCode.Domain\\MyCleanCode.Domain.csproj"
               }
             }
           }

@@ -13,3 +13,5 @@ D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\obj\Debug\net5.0\MyCl
 D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\obj\Debug\net5.0\MyCleanCode.Application.dll
 D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\obj\Debug\net5.0\ref\MyCleanCode.Application.dll
 D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\obj\Debug\net5.0\MyCleanCode.Application.pdb
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\bin\Debug\net5.0\MyCleanCode.Persistence.dll
+D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\bin\Debug\net5.0\MyCleanCode.Persistence.pdb

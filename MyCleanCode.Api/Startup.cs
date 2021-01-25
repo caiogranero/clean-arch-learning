@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MyCleanCode.Application;
+using MyCleanCode.Infrastructure;
 using MyCleanCode.Middleware;
 using MyCleanCode.Persistence;
 
@@ -36,6 +37,7 @@ namespace MyCleanCode
             });
             services.AddApplicationServices();
             services.AddPersistenceSerices(Configuration);
+            services.AddInfrastructureServices(Configuration);
 
             services.AddCors(options =>
                 options.AddPolicy("Open", builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));

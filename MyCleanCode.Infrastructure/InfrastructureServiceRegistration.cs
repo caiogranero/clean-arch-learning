@@ -8,7 +8,7 @@ namespace MyCleanCode.Infrastructure
 {
     public static class InfrastructureServiceRegistration
     {
-        public static IServiceCollection AddInfrastructureSerices(this IServiceCollection services,
+        public static IServiceCollection AddInfrastructureServices(this IServiceCollection services,
             IConfiguration configuration)
         {
             services.AddTransient<IEmailService, EmailService>();

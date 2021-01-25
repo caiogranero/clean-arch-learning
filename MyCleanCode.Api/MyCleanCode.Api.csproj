@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MyCleanCode.Application\MyCleanCode.Application.csproj" />
+      <ProjectReference Include="..\MyCleanCode.Infrastructure\MyCleanCode.Infrastructure.csproj" />
       <ProjectReference Include="..\MyCleanCode.Persistence\MyCleanCode.Persistence.csproj" />
     </ItemGroup>
 

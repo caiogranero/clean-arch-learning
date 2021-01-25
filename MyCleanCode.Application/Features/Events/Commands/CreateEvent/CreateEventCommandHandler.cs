@@ -19,12 +19,6 @@ namespace MyCleanCode.Application.Features.Events.Commands.CreateEvent
         }
         public async Task<int> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
-            var validator = new CreateEventCommandValidator(_cleanCodeContext);
-            var validationResult = await validator.ValidateAsync(request, cancellationToken);
-
-            if (!validationResult.IsValid)
-                throw new Exceptions.ValidationException(validationResult);
-            
             var @event = _mapper.Map<Event>(request);
             @event = (await _cleanCodeContext.Events.AddAsync(@event, cancellationToken)).Entity;
             return @event.EventId;

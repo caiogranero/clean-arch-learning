@@ -5,72 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f66c81f9-496d-4e62-ab91-0266bd5df9a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/Repository/CategoryRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyCleanCode/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyCleanCode/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyCleanCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyCleanCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Api.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/Controllers/EventController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/Controllers/EventController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/MyCleanCode.Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/ref/MyCleanCode.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/bin/Debug/net5.0/ref/MyCleanCode.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/MyCleanCode.Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/ref/MyCleanCode.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/Debug/net5.0/ref/MyCleanCode.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/MyCleanCode.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/MyCleanCode.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/ApplicationServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/ApplicationServiceRegistration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/Features/Categories/Queries/GetCategoriesList/GetCategoriesListQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/Features/Categories/Queries/GetCategoriesList/GetCategoriesListQueryHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQueryHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/MyCleanCode.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/MyCleanCode.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/MyCleanCode.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/MyCleanCode.Application.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/MyCleanCode.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/MyCleanCode.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/MyCleanCode.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/MyCleanCode.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/ref/MyCleanCode.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/bin/Debug/net5.0/ref/MyCleanCode.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/MyCleanCode.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/ref/MyCleanCode.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/Debug/net5.0/ref/MyCleanCode.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/MyCleanCode.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/MyCleanCode.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/MyCleanCode.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/MyCleanCode.Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Domain/obj/Debug/net5.0/MyCleanCode.Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Domain/obj/Debug/net5.0/MyCleanCode.Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/MyCleanCode.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/MyCleanCode.Persistence.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/PersistenceServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/PersistenceServiceRegistration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/Repositories/BaseRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/Repositories/CategoryRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/Repositories/EventRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/Repositories/OrderRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Application.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Application.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Persistence.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Persistence.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/Repository/CategoryQueryExtension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/Repository/EventQueryExtension.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/MyCleanCode.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/ref/MyCleanCode.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/bin/Debug/net5.0/ref/MyCleanCode.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/MyCleanCode.Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/ref/MyCleanCode.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/Debug/net5.0/ref/MyCleanCode.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/MyCleanCode.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/MyCleanCode.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyCleanCode.Persistence/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +60,25 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3834795B-F41B-4E62-8161-509ECA0F5822/61/fb60fd55/IRequestHandler`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Features/Events/Queries/GetEventsList/GetEventsListQueryHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A758E2C8-A949-4E14-82BF-F117A2205303/8/Queryable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/ApplicationServiceRegistration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/535CE591-F702-4E1B-9C74-E8912413452D/1/AbstractValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyCleanCode.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyCleanCode.Api/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Profiles/MappingProfile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/647FAEDF-A0C0-4C01-B79E-04471FFD80DF/31/470eba31/RuntimeHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Features/Categories/Queries/GetCategoriesList/GetCategoriesListQueryHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQueryHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projetos/clean-arch/MyCleanCode/MyCleanCode.Application/ApplicationServiceRegistration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/647FAEDF-A0C0-4C01-B79E-04471FFD80DF/2B7/RuntimeHelpers.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -95,9 +87,6 @@
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Contracts/Persistence/IOrderRepository.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/GetEventsListQuery.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/GetEventDetailQuery.cs" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Application/ApplicationServiceRegistration.cs" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventsList/GetEventsListQueryHandler.cs" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQueryHandler.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/EventDetailVm.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQuery.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventsList/EventListVm.cs" />
@@ -119,18 +108,27 @@
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Contracts/Persistence/ICategoryRepository.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Persistence/Repositories/CategoryRepository.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Profiles/MappingProfile.cs" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Api/appsettings.json" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Api/Startup.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Api/Controllers/Category.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Api/Controllers/CategoryController.cs" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Api/Controllers/EventController.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Contracts/Persistence/IAsyncRepository.cs" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Persistence/PersistenceServiceRegistration.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Persistence/Repositories/OrderRepository.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Categories/Queries/GetCategoriesList/GetCategoriesListQueryHandler.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Persistence/Repository/CategoryRepository.cs" />
-      <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandValidator.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Application/ApplicationServiceRegistration.cs" />
       <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandHandler.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Application/Contracts/ValidationBehavior.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Commands/CreateEvent/CreateEventCommandValidator.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Persistence/QueryExtensions/CategoryQueryExtension.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Api/Controllers/EventController.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Api/appsettings.json" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Persistence/PersistenceServiceRegistration.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventsList/GetEventsListQueryHandler.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailValidator.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQueryHandler.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Api/Middleware/MiddlewareExtension.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Api/Middleware/MiddlewareExtensions.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Api/Startup.cs" />
+      <option value="$PROJECT_DIR$/MyCleanCode.Api/Middleware/ExceptionHandlerMiddleware.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nW5w1vTkrfpBIyb474HhJsw6Tl" />
@@ -140,7 +138,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3501006" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -197,6 +195,14 @@
       <workItem from="1611493250681" duration="10151000" />
       <workItem from="1611521985402" duration="760000" />
     </task>
+    <task id="LOCAL-00001" summary="add gitignore">
+      <created>1611574839350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611574839350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,6 +233,58 @@
           <line>22</line>
           <properties documentPath="D:\Projetos\clean-arch\MyCleanCode\MyCleanCode\Controllers\WeatherForecastController.cs" initialLine="22" containingFunctionPresentation="constructor 'WeatherForecastController'" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MyCleanCode.Api/Controllers/EventController.cs</url>
+          <line>22</line>
+          <properties documentPath="D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Api\Controllers\EventController.cs" initialLine="22" containingFunctionPresentation="method 'GetById'">
+            <startOffsets>
+              <option value="638" />
+            </startOffsets>
+            <endOffsets>
+              <option value="719" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MyCleanCode.Api/Controllers/EventController.cs</url>
+          <line>30</line>
+          <properties documentPath="D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Api\Controllers\EventController.cs" initialLine="30" containingFunctionPresentation="method 'Post'">
+            <startOffsets>
+              <option value="893" />
+            </startOffsets>
+            <endOffsets>
+              <option value="937" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQueryHandler.cs</url>
+          <line>26</line>
+          <properties documentPath="D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\Features\Events\Queries\GetEventDetail\GetEventDetailQueryHandler.cs" initialLine="21" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="1053" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1124" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MyCleanCode.Application/Features/Events/Queries/GetEventDetail/GetEventDetailQueryHandler.cs</url>
+          <line>27</line>
+          <properties documentPath="D:\Projetos\clean-arch\MyCleanCode\MyCleanCode.Application\Features\Events\Queries\GetEventDetail\GetEventDetailQueryHandler.cs" initialLine="22" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="1137" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1193" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

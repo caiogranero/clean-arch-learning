@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using FluentValidation;
 using MyCleanCode.Persistence;
-using MyCleanCode.Persistence.Repository;
+using MyCleanCode.Persistence.QueryExtensions;
 
 namespace MyCleanCode.Application.Features.Events.Commands.CreateEvent
 {
@@ -14,6 +14,7 @@ namespace MyCleanCode.Application.Features.Events.Commands.CreateEvent
         public CreateEventCommandValidator(CleanCodeContext dbContext)
         {
             _dbContext = dbContext;
+            
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("{PropertyName} is required")
                 .NotNull()

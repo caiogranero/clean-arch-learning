@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MyCleanCode.Domain.Entities;
 
-namespace MyCleanCode.Persistence.Repository
+namespace MyCleanCode.Persistence.QueryExtensions
 {
     public static class EventQueryExtension
     {

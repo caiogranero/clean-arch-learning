@@ -6,7 +6,7 @@ using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using MyCleanCode.Persistence;
-using MyCleanCode.Persistence.Repository;
+using MyCleanCode.Persistence.QueryExtensions;
 
 namespace MyCleanCode.Application.Features.Categories.Queries.GetCategoriesList
 {

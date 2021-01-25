@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
+using MyCleanCode.Application.Exceptions;
 using MyCleanCode.Domain.Entities;
 using MyCleanCode.Persistence;
 
@@ -19,6 +21,9 @@ namespace MyCleanCode.Application.Features.Events.Queries.GetEventDetail
        }
         public async Task<EventDetailVm> Handle(GetEventDetailQuery request, CancellationToken cancellationToken)
         {
+            if (!await _cleanCodeContext.Events.AnyAsync(x => x.EventId == request.EventId, cancellationToken: cancellationToken))
+                throw new NotFoundException(nameof(Event), request.EventId);
+
             var @event = await _cleanCodeContext.Events.FindAsync(request.EventId);
             var eventDetailDto = _mapper.Map<EventDetailVm>(@event);
 

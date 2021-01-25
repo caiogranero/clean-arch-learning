@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using MyCleanCode.Domain.Entities;
 
-namespace MyCleanCode.Persistence.Repository
+namespace MyCleanCode.Persistence.QueryExtensions
 {
     public static class CategoryQueryExtension
     {

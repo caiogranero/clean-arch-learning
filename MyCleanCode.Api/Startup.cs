@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MyCleanCode.Application;
+using MyCleanCode.Middleware;
 using MyCleanCode.Persistence;
 
 namespace MyCleanCode
@@ -53,6 +54,7 @@ namespace MyCleanCode
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseCors("Open");
+            app.UseCustomExceptionHandler();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }

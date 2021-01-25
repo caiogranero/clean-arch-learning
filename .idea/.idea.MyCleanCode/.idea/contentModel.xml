@@ -15,6 +15,10 @@
           <e p="EventController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
+        <e p="Middleware" t="Include">
+          <e p="ExceptionHandlerMiddleware.cs" t="Include" />
+          <e p="MiddlewareExtensions.cs" t="Include" />
+        </e>
         <e p="MyCleanCode.Api.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -33,7 +37,9 @@
       <e p="MyCleanCode.Application" t="IncludeRecursive">
         <e p="ApplicationServiceRegistration.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Contracts" t="Include" />
+        <e p="Contracts" t="Include">
+          <e p="ValidationBehavior.cs" t="Include" />
+        </e>
         <e p="Exceptions" t="Include">
           <e p="BadRequestException.cs" t="Include" />
           <e p="NotFoundException.cs" t="Include" />
@@ -115,6 +121,11 @@
       <e p="MyCleanCode.Persistence" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="CleanCodeContext.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20210124232741_InitialMigration.cs" t="Include" />
+          <e p="20210124232741_InitialMigration.Designer.cs" t="Include" />
+          <e p="CleanCodeContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="MyCleanCode.Persistence.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -124,8 +135,9 @@
           </e>
         </e>
         <e p="PersistenceServiceRegistration.cs" t="Include" />
-        <e p="Repository" t="Include">
-          <e p="CategoryRepository.cs" t="Include" />
+        <e p="QueryExtensions" t="Include">
+          <e p="CategoryQueryExtension.cs" t="Include" />
+          <e p="EventQueryExtension.cs" t="Include" />
         </e>
       </e>
       <e p="MyCleanCode.sln" t="IncludeFlat" />

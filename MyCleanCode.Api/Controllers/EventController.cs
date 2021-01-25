@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using MyCleanCode.Application.Features.Events.Commands.CreateEvent;
 using MyCleanCode.Application.Features.Events.Queries.GetEventDetail;
 
 namespace MyCleanCode.Controllers
@@ -22,6 +23,14 @@ namespace MyCleanCode.Controllers
             var @event = await _mediator.Send(new GetEventDetailQuery() {EventId = eventId});
 
             return Ok(@event);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<int>> Post([FromBody] CreateEventCommand command)
+        {
+            var eventId = await _mediator.Send(command);
+
+            return Ok(eventId);
         }
     }
 }

@@ -48,7 +48,7 @@ namespace MyCleanCode.Middleware
                 case NotFoundException:
                     statusCode = HttpStatusCode.NotFound;
                     break;
-                case Exception:
+                default:
                     statusCode = HttpStatusCode.BadRequest;
                     break;
             }

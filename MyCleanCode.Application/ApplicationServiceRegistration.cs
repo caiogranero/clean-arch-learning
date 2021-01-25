@@ -3,7 +3,6 @@ using AutoMapper;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using MediatR;
-using MyCleanCode.Application.Contracts;
 
 namespace MyCleanCode.Application
 {
